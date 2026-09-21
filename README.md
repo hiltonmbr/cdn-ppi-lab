@@ -81,9 +81,9 @@ a conversa continua, e é lá que você responde se discordar de algum ponto.
 
 ## 🗂️ As atividades
 
-| #   | Atividade                                                              | Aulas | Unidade | Prazo         |
-| --- | ------------------------------------------------------------------------ | ----- | ------- | ------------- |
-| 01  | [O Raio-X do Seu Negócio](atividade-01-o-raio-x-do-seu-negocio.ipynb)   | 1–5   | U1      | dom **20/09** |
+| #   | Atividade                                                             | Aulas | Unidade | Prazo         |
+| --- | --------------------------------------------------------------------- | ----- | ------- | ------------- |
+| 01  | [O Raio-X do Seu Negócio](atividade-01-o-raio-x-do-seu-negocio.ipynb) | 1–5   | U1      | dom **28/09** |
 
 > As demais atividades são publicadas ao longo do semestre. Quando uma nova
 > for liberada, o professor avisa e você sincroniza o repositório com o
@@ -113,7 +113,7 @@ que não transfere é a resposta.
 ### O que vale ponto
 
 | Critério                                | Pontos |
-| ---------------------------------------- | ------ |
+| --------------------------------------- | ------ |
 | Correção técnica dos exercícios         | 4,0    |
 | Previsão e rastreamento (Parte 1)       | 1,5    |
 | Questão autoral                         | 2,0    |
@@ -154,10 +154,10 @@ específica vale mais que dez registros vazios.
 
 A política por unidade é a do programa (§5.2):
 
-| Unidade                         | Aulas | Política                        |
-| -------------------------------- | ----- | -------------------------------- |
-| **U1** — Fundamentos de lógica  | 1–10  | IA generativa **não permitida** |
-| **U2** — Estruturas avançadas   | 11–20 | permitida **com declaração**    |
+| Unidade                           | Aulas | Política                        |
+| --------------------------------- | ----- | ------------------------------- |
+| **U1** — Fundamentos de lógica    | 1–10  | IA generativa **não permitida** |
+| **U2** — Estruturas avançadas     | 11–20 | permitida **com declaração**    |
 | **U3** — Boas práticas e arquivos | 21–30 | permitida **com declaração**    |
 
 A declaração é obrigatória em todas as atividades: de **não-uso** na U1, e em
