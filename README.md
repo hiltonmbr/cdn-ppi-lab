@@ -81,13 +81,18 @@ a conversa continua, e é lá que você responde se discordar de algum ponto.
 
 ## 🗂️ As atividades
 
-| #   | Atividade                                                             | Aulas | Unidade | Prazo         |
-| --- | --------------------------------------------------------------------- | ----- | ------- | ------------- |
-| 01  | [O Raio-X do Seu Negócio](atividade-01-o-raio-x-do-seu-negocio.ipynb) | 1–5   | U1      | dom **28/09** |
+| #   | Atividade                                                             | Aulas | Unidade |
+| --- | --------------------------------------------------------------------- | ----- | ------- |
+| 01  | [O Raio-X do Seu Negócio](atividade-01-o-raio-x-do-seu-negocio.ipynb) | 1–5   | U1      |
 
-> As demais atividades são publicadas ao longo do semestre. Quando uma nova
-> for liberada, o professor avisa e você sincroniza o repositório com o
-> template (as instruções vêm no aviso).
+> 🔗 **Cada atividade tem o seu próprio repositório-template.** O GitHub
+> "Use this template" cria um repositório sem nenhuma relação contínua com
+> o template de origem — diferente de um fork, não há como dar `git pull`
+> para trazer atualizações posteriores. Por isso, quando uma nova atividade
+> for liberada, ela vem num **novo repositório** (o professor avisa e passa
+> o link), em vez de ser adicionada a este. A Atividade 02 — "O Painel de
+> Comando do Seu Negócio" — já está disponível em outro repositório-template
+> da disciplina.
 
 ---
 
