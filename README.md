@@ -1,27 +1,27 @@
-# 🚀 Atividades avaliativas do curso de Princípios de Programação I
+# 🚀 Atividade 01 — O Raio-X do Seu Negócio
 
 **Princípios de Programação I** · Ciência de Dados para Negócios · UFPB (CCSA) · 2026.2
 
 Prof. Dr. Hilton Ramalho
 
-Este repositório-modelo é da disciplina. Seguindo as instruções abaixo, você
-cria a sua própria cópia, individual, onde as atividades avaliativas são
-desenvolvidas e entregues — não há upload de arquivo em lugar nenhum. A
-entrega oficial só acontece quando o **link do seu repositório** é enviado no
-Google Sala de Aula (veja "Instruções para realização e entrega" abaixo).
+Este repositório-modelo é de **uma única atividade avaliativa** da
+disciplina — cada atividade tem o seu próprio repositório-template no
+GitHub (veja "Por que um repositório por atividade?" abaixo). Seguindo as
+instruções abaixo, você cria a sua própria cópia, individual, onde a
+atividade é desenvolvida e entregue — não há upload de arquivo em lugar
+nenhum. A entrega oficial só acontece quando o **link do seu repositório**
+é enviado no Google Sala de Aula (veja "Instruções para realização e
+entrega" abaixo).
 
 > ⚠️ **Crie o seu repositório como público.** É assim que o professor acessa
 > a correção direto pelo link, sem precisar de convite. Isso também significa
-> que a sua **matrícula fica visível** no notebook (você a digita no Passo 0
-> de cada atividade) — é um dado que identifica só você mesmo, mas se isso te
-> incomodar, fale com o professor sobre criar o repositório como privado e
-> adicioná-lo como colaborador.
+> que a sua **matrícula fica visível** no notebook (você a digita no Passo 0)
+> — é um dado que identifica só você mesmo, mas se isso te incomodar, fale
+> com o professor sobre criar o repositório como privado e adicioná-lo como
+> colaborador.
 
-As atividades compõem o instrumento **"Exercícios de código semanais"**, que
+Esta atividade compõe o instrumento **"Exercícios de código semanais"**, que
 vale **30% da nota final** (programa §5.1).
-
-Cada atividade tem o seu próprio tema, mas todas seguem a mesma estrutura
-descrita a seguir.
 
 ---
 
@@ -29,10 +29,10 @@ descrita a seguir.
 
 1. Faça login na sua conta do GitHub (crie uma gratuita em
    [github.com](https://github.com) se ainda não tiver — o botão do próximo
-   passo só aparece com você **logado**). Acesse o repositório da disciplina
-   e clique em **"Use this template" → "Create a new repository"**. Essa
-   etapa cria um novo repositório, independente, a partir do template
-   fornecido pelo professor — deixe a visibilidade como **pública**.
+   passo só aparece com você **logado**). Acesse **este** repositório e
+   clique em **"Use this template" → "Create a new repository"**. Essa
+   etapa cria um novo repositório, independente, a partir deste template —
+   deixe a visibilidade como **pública**.
 2. Clone o seu novo repositório para o computador e desenvolva a atividade
    utilizando sua IDE preferida, como VS Code, Antigravity ou Cursor:
 
@@ -42,7 +42,7 @@ descrita a seguir.
    ```
 
 3. Ao finalizar toda a atividade, salve e envie suas alterações para o
-   GitHub usando os comandos do git. A última célula de cada notebook —
+   GitHub usando os comandos do git. A última célula do notebook —
    `assinatura()` — imprime a linha exata que vai na mensagem do commit
    final; o passo a passo completo está na seção "Fechando a entrega" do
    próprio notebook.
@@ -79,20 +79,24 @@ a conversa continua, e é lá que você responde se discordar de algum ponto.
 
 ---
 
-## 🗂️ As atividades
+## 🔗 Por que um repositório por atividade?
 
-| #   | Atividade                                                             | Aulas | Unidade |
-| --- | --------------------------------------------------------------------- | ----- | ------- |
-| 01  | [O Raio-X do Seu Negócio](atividade-01-o-raio-x-do-seu-negocio.ipynb) | 1–5   | U1      |
+O GitHub "Use this template" cria um repositório **sem nenhuma relação
+contínua** com o template de origem — diferente de um fork, não há como dar
+`git pull` para trazer atualizações posteriores do template. Se todas as
+atividades do semestre vivessem num único repositório-template, quem já
+tivesse criado o próprio repositório antes de uma nova atividade ser
+publicada precisaria recriar tudo do zero para recebê-la.
 
-> 🔗 **Cada atividade tem o seu próprio repositório-template.** O GitHub
-> "Use this template" cria um repositório sem nenhuma relação contínua com
-> o template de origem — diferente de um fork, não há como dar `git pull`
-> para trazer atualizações posteriores. Por isso, quando uma nova atividade
-> for liberada, ela vem num **novo repositório** (o professor avisa e passa
-> o link), em vez de ser adicionada a este. A Atividade 02 — "O Painel de
-> Comando do Seu Negócio" — já está disponível em outro repositório-template
-> da disciplina.
+Por isso: **cada atividade avaliativa é o seu próprio repositório-template**,
+usado uma única vez. Esta é a Atividade 01 — a primeira do semestre. Quando
+uma nova atividade for liberada, ela vem num **novo repositório** (o
+professor avisa e passa o link), em vez de ser adicionada a este.
+
+> 📖 A Atividade 02 — "O Painel de Comando do Seu Negócio" — já está
+> disponível em outro repositório-template da disciplina. O seu negócio lá
+> é **o mesmo** desta atividade — mesmo nome, mesma UF, mesma categoria,
+> calculados de novo a partir da sua matrícula.
 
 ---
 
@@ -100,7 +104,7 @@ a conversa continua, e é lá que você responde se discordar de algum ponto.
 
 ### Os seus dados são só seus
 
-No **Passo 0** de cada notebook você digita a sua matrícula. Ela passa por um
+No **Passo 0** do notebook você digita a sua matrícula. Ela passa por um
 resumo criptográfico **SHA-256** que semeia o gerador de dados: todo o
 cenário da atividade — o seu negócio, o seu último pedido — sai dali.
 
@@ -132,8 +136,8 @@ difícil.
 
 ### As funções do kit
 
-Cada atividade traz o seu kit em `scripts/kit_aNN.py`. A interface é sempre a
-mesma:
+O kit desta atividade mora em `scripts/kit_a01.py`. A interface é sempre a
+mesma, em todas as atividades do curso:
 
 | Função                     | Para quê                                         |
 | -------------------------- | ------------------------------------------------ |
@@ -148,7 +152,7 @@ mesma:
 respondeu e diz, item a item, o que ainda não fecha — dando uma **pista**,
 nunca a resposta. Rode quantas vezes quiser: errar ali não custa nada.
 
-**O diário de bordo é seu e está à vista.** Ele fica em `diario-aNN.json`, ao
+**O diário de bordo é seu e está à vista.** Ele fica em `diario-a01.json`, ao
 lado do notebook, e você lê quando quiser com `diario()`. Na correção, o que
 conta são as **notas** que você escreveu em cada `registrar()` — uma nota
 específica vale mais que dez registros vazios.
@@ -165,13 +169,8 @@ A política por unidade é a do programa (§5.2):
 | **U2** — Estruturas avançadas     | 11–20 | permitida **com declaração**    |
 | **U3** — Boas práticas e arquivos | 21–30 | permitida **com declaração**    |
 
-A declaração é obrigatória em todas as atividades: de **não-uso** na U1, e em
-formato de tabela na U2 e na U3 —
-
-| ferramenta | o que pedi (prompt literal) | o que aceitei | o que rejeitei e por quê |
-
-A coluna _"o que rejeitei"_ é a que interessa: ela exige que você tenha
-julgado a saída, e não apenas colado.
+Esta atividade (Aulas 1–5) está na **U1** — declaração de **não-uso**
+obrigatória.
 
 ### O desenho é honesto com você
 
